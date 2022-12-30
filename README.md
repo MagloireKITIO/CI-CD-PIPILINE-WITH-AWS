@@ -60,3 +60,21 @@ Inclut des informations sur le mode d'exécution d'une génération, notamment l
 ## Protocole ouvert OAuth
 
 pour obtenir une autorisation sécurisée. OAuth vous permet de connecter votre compte GitHub à des applications tierces, notamment AWS CodeBuild.
+
+## Concepts clés aws codepipeline
+
+### Livraison continue 
+
+Pratique de développement de logiciel qui permet aux développeurs de publier plus rapidement des logiciels en automatisant les processus de génération, de test et de déploiement.
+
+## Pipeline 
+
+Modèle de flux de travail qui décrit la progression des modifications apportées au logiciel au cours du processus de publication. Chaque pipeline est constitué d'un ensemble de phases.
+
+## Phase Division logique d'un pipeline,
+
+au sein de laquelle des actions sont effectuées. Une phase peut être une phase de génération, durant laquelle le code source est généré et des tests sont exécutés. Il peut également s'agit d'une phase de déploiement, durant laquelle le code est déployé dans des environnements d'exécution.
+
+## Action
+
+Ensemble de tâches réalisées durant une phase du pipeline. Par exemple, une action source peut initier un pipeline lorsque le code source est mis à jour, et une action de déploiement peut déployer un code dans un service de calcul comme AWS Elastic Beanstalk.

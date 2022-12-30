@@ -37,3 +37,26 @@ Serveur virtuel dans le cloud. Elastic Beanstalk alloue une ou plusieurs instanc
 Logiciel qui utilise le protocole HTTP pour diffuser du contenu sur Internet. Il permet de stocker, traiter et diffuser des pages web.
 
 ### Plateforme Combinaison d'un système d'exploitation, d'un environnement d'exécution de langage de programmation, d'un serveur web, d'un serveur d'applications et de composants Elastic Beanstalk. Votre application s'exécute à l'aide des composants fournis par une plateforme.
+
+## Concepts clés aws codebluid
+Processus de génération Processus qui convertit les fichiers de code source en un artefact logiciel exécutable. Il peut comprendre les étapes suivantes : compilation du code source, exécution de tests et empaquetage du logiciel en vue de son déploiement.
+
+## Intégration continue
+
+Méthode de développement de logiciel consistant à envoyer régulièrement les modifications à un référentiel hébergé, suite à quoi des opérations de création et de test sont automatiquement menées.
+
+## Environnement de génération
+
+Regroupe le système d'exploitation, l'environnement d'exécution du langage de programmation et les outils que CodeBuild utilise pour exécuter une génération.
+
+## Buildspec
+
+Collection de commandes de génération et de paramètres connexes, au format YAML, que CodeBuild utilise pour exécuter une génération.
+
+## Projet de génération
+
+Inclut des informations sur le mode d'exécution d'une génération, notamment l'emplacement du code source, l'environnement de génération à utiliser, les commandes de génération à exécuter et l'emplacement de stockage de la sortie de génération.
+
+## Protocole ouvert OAuth
+
+pour obtenir une autorisation sécurisée. OAuth vous permet de connecter votre compte GitHub à des applications tierces, notamment AWS CodeBuild.
